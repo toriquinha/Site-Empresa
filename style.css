@@ -13,7 +13,7 @@ header{
     background-image: url("https://www.amherst.edu/system/files/media/Mammoth-moon-Halloween-transparent.gif&__=1603398037");
     background-repeat: no-repeat;
     background-size: 54%;
-    margin-left: 34%;
+    margin-left: 36%;
 }
 header h1{
     font-size: 60px;
@@ -29,19 +29,19 @@ header h1{
 
 
 
-article img{
+.geral img{
 width: 80%;
 padding-left: 10%;
 }
 
-main article{
+.geral{
     width: 100%;
     height: auto;
     display: block;
     background-color: black;
 }
 
-main article h2{
+.geral h2{
     color: rgb(59, 59, 59);
     text-shadow: 1px 2px rgb(153, 153, 153);
     font-size: 40px;
@@ -49,11 +49,11 @@ main article h2{
     margin-bottom: 15px;
 }
 
-marquee img{
+.geral marquee img{
     width: 10%;
     height: 5%;
 }
-main article h3{
+.geral h3{
     color: rgb(59, 59, 59);
     text-shadow: 1px 2px rgb(153, 153, 153);
     font-size: 20px;
@@ -62,7 +62,7 @@ main article h3{
 }
 
 
-main article p{
+.geral p{
     color: rgb(59, 59, 59);
     text-shadow: 1px 2px rgb(153, 153, 153);
     font-size: 16px;
@@ -72,23 +72,68 @@ main article p{
     width: 90%;
 }
 
-.bruxinha {
-    width: 25%;
-    height: 15%;
+
+
+.vassoura {
+    width: 50%;
+    height: 50%;
     display: block;
     float: left;
-    margin-left: 38%;
-    
+    margin-right: 50%;
+   
     
 }
 
-.bruxa{
-    width: 10%;
-    height: 5%;
+.vassoura > img{
+    width: 15%;
+    height: 10%;
     display: block;
     float: left;
+
 
 }
 
 
+ .textos {
+    --b: 8px;  /* border thickness*/
+    --s: 60px; /* size of the corner*/
+    --g: 14px; /* the gap*/
+    --c: #3c1f3f; 
+    
+    padding: calc(var(--b) + var(--g));
+    background-color: gray;
+    float: left;
+    border: 5px solid black;
+    margin-left: 15%;
+    background-image:
+      conic-gradient(from  90deg at top    var(--b) left  var(--b),#4e3d50 25%,var(--c) 0),
+      conic-gradient(from -90deg at bottom var(--b) right var(--b),#4e3d50 25%,var(--c) 0);
+    background-position:
+      var(--_p,0%) var(--_p,0%),
+      calc(100% - var(--_p,0%)) calc(100% - var(--_p,0%));
+    background-size: var(--s) var(--s);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color: rgb(216, 216, 216);
+    text-shadow: 1px 2px rgb(12, 12, 12);
+    width: 500px;
+    height: 300px;
+    transition: 
+      background-position .3s var(--_i,.3s), 
+      background-size .3s calc(.3s - var(--_i,.3s));
 
+      
+  }
+  .textos.alt {
+    background-image:
+      conic-gradient(from 180deg at top    var(--b) right var(--b),#0000 25%,var(--c) 0),
+      conic-gradient(from   0deg at bottom var(--b) left  var(--b),#0000 25%,var(--c) 0);
+    background-position:
+      calc(100% - var(--_p,0%)) var(--_p,0%),
+      var(--_p,0%) calc(100% - var(--_p,0%));
+  }
+ .textos:hover {
+    background-size: calc(100% - var(--g)) calc(100% - var(--g));
+    --_p: calc(var(--g)/2);
+    --_i: 0s;
+  }
