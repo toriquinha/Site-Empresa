@@ -8,7 +8,7 @@
 
 header{
     width: 1080px;
-    height: 1080px;
+    height: 600px;
     display: block;
     background-image: url("https://www.amherst.edu/system/files/media/Mammoth-moon-Halloween-transparent.gif&__=1603398037");
     background-repeat: no-repeat;
@@ -26,3 +26,69 @@ header h1{
     text-shadow: 3px 4px rgb(39, 0, 12);
     background-color: transparent;
 }
+
+
+
+article img{
+width: 80%;
+padding-left: 10%;
+}
+
+main article{
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: black;
+}
+
+main article h2{
+    color: rgb(59, 59, 59);
+    text-shadow: 1px 2px rgb(153, 153, 153);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+marquee img{
+    width: 10%;
+    height: 5%;
+}
+main article h3{
+    color: rgb(59, 59, 59);
+    text-shadow: 1px 2px rgb(153, 153, 153);
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+main article p{
+    color: rgb(59, 59, 59);
+    text-shadow: 1px 2px rgb(153, 153, 153);
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 18px;
+    line-height: 25px;
+    width: 90%;
+}
+
+.bruxinha {
+    width: 25%;
+    height: 15%;
+    display: block;
+    float: left;
+    margin-left: 38%;
+    
+    
+}
+
+.bruxa{
+    width: 10%;
+    height: 5%;
+    display: block;
+    float: left;
+
+}
+
+
+
