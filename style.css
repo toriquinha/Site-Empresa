@@ -1,0 +1,28 @@
+*{
+    padding: 0%;
+    margin-left: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+
+}
+
+header{
+    width: 1080px;
+    height: 1080px;
+    display: block;
+    background-image: url("https://www.amherst.edu/system/files/media/Mammoth-moon-Halloween-transparent.gif&__=1603398037");
+    background-repeat: no-repeat;
+    background-size: 54%;
+    margin-left: 34%;
+}
+header h1{
+    font-size: 60px;
+    color: rgb(146, 146, 146);
+    display: block;
+    float: left;
+    width: 600px;
+    margin-left: 13%;
+    padding-top: 200px;
+    text-shadow: 3px 4px rgb(39, 0, 12);
+    background-color: transparent;
+}
