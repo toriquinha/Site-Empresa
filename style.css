@@ -22,7 +22,9 @@ header{
 
 #gifzada img{
 width: 80%;
-padding-left: 10%;
+margin-left: 10%;
+border-radius: 20%;
+box-shadow: 4px 6px rgba(128, 128, 128, 0.644);
 }
 
 .geral{
