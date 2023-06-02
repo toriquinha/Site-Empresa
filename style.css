@@ -7,22 +7,22 @@
 }
 
 header{
-    width: 1080px;
-    height: 600px;
+    width: 800px;
+    height: 400px;
     display: block;
     background-image: url("https://www.amherst.edu/system/files/media/Mammoth-moon-Halloween-transparent.gif&__=1603398037");
     background-repeat: no-repeat;
     background-size: 54%;
-    margin-left: 34%;
+    margin-left: 33%;
 }
 header h1{
-    font-size: 60px;
+    font-size: 40px;
     color: rgb(146, 146, 146);
     display: block;
     float: left;
     width: 600px;
-    margin-left: 13%;
-    padding-top: 200px;
+    margin-left: 14%;
+    padding-top: 160px;
     text-shadow: 3px 4px rgb(39, 0, 12);
     background-color: transparent;
 }
@@ -84,14 +84,7 @@ padding-left: 10%;
     
 }
 
-.vassoura > img{
-    width: 15%;
-    height: 10%;
-    display: block;
-    float: left;
 
-
-}
 
 
  .textos {
@@ -104,7 +97,8 @@ padding-left: 10%;
     background-color: gray;
     float: left;
     border: 5px solid black;
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 6%;
     background-image:
       conic-gradient(from  90deg at top    var(--b) left  var(--b),#4e3d50 25%,var(--c) 0),
       conic-gradient(from -90deg at bottom var(--b) right var(--b),#4e3d50 25%,var(--c) 0);
@@ -116,8 +110,8 @@ padding-left: 10%;
     cursor: pointer;
     color: rgb(216, 216, 216);
     text-shadow: 1px 2px rgb(12, 12, 12);
-    width: 500px;
-    height: 300px;
+    width: 350px;
+    height: 150px;
     transition: 
       background-position .3s var(--_i,.3s), 
       background-size .3s calc(.3s - var(--_i,.3s));
@@ -148,12 +142,15 @@ padding-left: 10%;
 }
 
 .footer{
-    width: 33%;
-    height: 50%;
+    width: 29%;
+    height: 45%;
     display: block;
     float: left;
     background-color: grey;
-    margin-left: 4px;
+    border-radius: 3%;
+    box-shadow: 5px 7px #4e3d50;
+    margin-left: 2%;
+    margin-right: 2%;
     
 }
 
@@ -161,28 +158,31 @@ padding-left: 10%;
     font-family:'Impact', 'Haettenschweiler', 'Arial Narrow Bold', 'sans-serif';
     color: black;
     background-color: transparent;
+    margin-left: 40%;
 }
+
+
 
 .footer p {
     font-family: 'Times New Roman', Times, serif;
     color: black;
+    text-shadow: 1px 1px #3c1f3f;
+    font-weight: bold;
     background-color: transparent;
+    background-position: center;
+    padding-left: 7%;
+    padding-right: 5%;
+    margin-left: 18%;
 
 }
 
-.footer a img {
-    height: 15%;
-    width: 10%;
-    background-image: url('https://png.pngtree.com/png-clipart/20230407/original/pngtree-circle-with-shadow-png-image_9032546.png');
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: center;
-    
-}
 
-.footer img{
-    height: 200px;
-    width: 200px;
+
+.footer a img{
+    height: 210px;
+    width: 210px;
     background-color: transparent;
+    margin-left: 20%;
+    display: block;
 }
 
