@@ -7,29 +7,20 @@
 }
 
 header{
-    width: 800px;
-    height: 400px;
+    width: 1600px;
+    height: 500px;
     display: block;
-    background-image: url("https://www.amherst.edu/system/files/media/Mammoth-moon-Halloween-transparent.gif&__=1603398037");
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/008/339/864/original/sam-bayot-bat-all-movement.gif?1512105740");
     background-repeat: no-repeat;
-    background-size: 54%;
-    margin-left: 33%;
-}
-header h1{
-    font-size: 40px;
-    color: rgb(146, 146, 146);
-    display: block;
-    float: left;
-    width: 600px;
-    margin-left: 14%;
-    padding-top: 160px;
-    text-shadow: 3px 4px rgb(39, 0, 12);
-    background-color: transparent;
+    background-size: 100%;
+    background-position-x: 100px;
+    
+    
 }
 
 
 
-.geral img{
+#gifzada img{
 width: 80%;
 padding-left: 10%;
 }
@@ -41,12 +32,11 @@ padding-left: 10%;
     background-color: black;
 }
 
-.geral h2{
-    color: rgb(59, 59, 59);
-    text-shadow: 1px 2px rgb(153, 153, 153);
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 15px;
+#hello img{
+    width: 170px;
+    height: 153px;
+    display: block;
+    margin-left: 45%;
 }
 
 .geral marquee img{
@@ -59,6 +49,10 @@ padding-left: 10%;
     font-size: 20px;
     text-align: center;
     margin-bottom: 12px;
+    margin-left: 39%;
+    width: 400px;
+    border: 2px #373238;
+    border-style: dotted;
 }
 
 
@@ -96,8 +90,8 @@ padding-left: 10%;
     padding: calc(var(--b) + var(--g));
     background-color: gray;
     float: left;
-    border: 5px solid black;
-    margin-left: 10%;
+    border: 15px solid black;
+    margin-left: 15%;
     margin-right: 6%;
     background-image:
       conic-gradient(from  90deg at top    var(--b) left  var(--b),#4e3d50 25%,var(--c) 0),
@@ -186,3 +180,76 @@ padding-left: 10%;
     display: block;
 }
 
+
+.container{
+    position:relative;
+    width:400px;
+    height:200px;
+    margin: auto;
+    padding-top:200px;
+    padding-left: 270px;  
+  }
+  
+  .button {
+    color: #8c9788;
+    text-shadow: 1px 2px #6c7568;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 27px;
+    background: #402e44;
+    border-radius: 50px;
+    padding: 30px 90px;
+    border: none;
+    transition: .5s ease;
+    box-shadow: 0 15px 60px -5px rgba(0, 0, 0, .5);
+  }
+  
+  .button:hover {
+    box-shadow: none;
+    cursor: pointer;
+  }
+  
+  .button:hover + .drip-1{
+    height: 50px;
+  }
+  
+  .button:hover ~ .drip-2{
+    height: 90px;
+  }
+  
+  .button:hover ~ .drip-3{
+    height: 30px;
+  }
+  
+  
+  
+  .drip-1{
+    position:absolute;
+    width:19px;
+    height:0px;
+    border-radius:0 0 21px 21px;
+    background:#ddaed398;
+    margin: 0px 158px;
+    transition: height 0.9s ease;
+  }
+  
+  
+  .drip-2{
+    position:absolute;
+    width:19px;
+    height:0px;
+    border-radius:0 0 21px 21px;
+    background:#ddaed398;
+    margin: 0px 140px;
+    transition: height 1.5s ease;
+  }
+  
+  .drip-3{
+    position:absolute;
+    width:19px;
+    height:0px;
+    border-radius:0 0 21px 21px;
+    background:#ddaed398;
+    margin: 0px 60px;
+    transition: height .7s ease;
+  }
